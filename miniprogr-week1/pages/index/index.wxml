@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="title">
+<text>\n图书信息一览\n-----------\n</text>
+</view>
+<view class="main-info">
+<block>
+<image class="imglocal" src="/img/cover.jpg"></image>
+</block>
+<text>\n作者：简·奥斯丁</text><text>\n</text>
+<text>出版社: 人民文学出版社</text><text>\n</text>
+<text>原作名: Pride and Prejudice</text><text>\n</text>
+<text>译者: 张玲 / 张扬\n</text><text>作者：简·奥斯丁</text><text>\n</text>
+<text>出版年: 1993-7\n</text>
+<text>装帧: 平装</text><text>\n</text>
+<text>ISBN:9787020040179</text><text>\n</text>
+</view>
+

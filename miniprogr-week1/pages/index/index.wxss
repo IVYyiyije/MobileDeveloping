@@ -1,0 +1,16 @@
+/**index.wxss**/
+.title{
+  text-align: center;
+  font-size: 20px;
+}
+
+.imglocal{
+  display:flex;                      
+  justify-content: center;
+  align-items:center;
+  width: 50%; 
+  margin-block-start: 10px; 
+  margin-left: 23%;
+}
+
+.main-info{text-align: center;font-size: 12px;}
