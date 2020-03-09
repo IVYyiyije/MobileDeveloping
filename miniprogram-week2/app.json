@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "requiredBackgroundModes": [
+  "audio",
+  "location"
+  ],
+  
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,20 @@
+<!--index.wxml-->
+
+<view class="title">
+  <text>\n-----------\n</text>
+  {{name}}
+  <text>\n-----------</text> 
+</view>
+<image class="imglocal" src="img/author.jpeg"></image>
+<view class="AuthorName">
+  <view wx:for="{{author}}" wx:key="{{item}}">
+    {{index}}:{{item}}
+  </view>  
+</view>
+<view class="BookName" wx:for="{{title}}">
+<text>-----------\n</text>
+第{{index+1}}部曲:{{item}}</view>
+
+
+
+
