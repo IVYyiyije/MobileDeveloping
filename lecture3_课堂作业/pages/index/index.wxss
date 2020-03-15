@@ -1,0 +1,47 @@
+/**index.wxss**/
+.flex-item-red{
+    background-color: red;
+    height: 200rpx;
+    width: 200rpx;
+    text-align: center;
+    line-height: 200rpx;
+}
+.flex-item-green{
+    background-color: green;
+    height: 200rpx;
+    width: 200rpx;
+    text-align: center;
+    line-height: 200rpx
+}
+.flex-item-blue{
+    background-color: blue;
+    height: 200rpx;
+    width: 200rpx;
+    text-align: center; 
+    line-height: 200rpx  
+}
+.flex-wrp-row{
+    flex-direction: row;
+    display: flex;
+    margin-left: 10rpx;
+    margin-top: 20rpx;
+}
+.flex-wrp-column{
+    flex-direction: column;
+    display: flex;
+    margin-left: 10rpx;
+     margin-top: 20rpx;
+}
+.color-text{
+    color: snow;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.hover-style{
+    background-color: black;
+}
+.row-view-title,.column-view-title{
+    margin-left: 20rpx;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="containe<view>
+    <text class="row-view-title">水平布局：</text>
+    <view class="flex-wrp-row">
+        <view class="flex-item-red" hover="true" hover-class="hover-style">
+        <text class="color-text">red</text></view>
+
