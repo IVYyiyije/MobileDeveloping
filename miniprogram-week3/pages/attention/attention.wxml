@@ -1,0 +1,6 @@
+<!--pages/attention/attention.wxml-->
+<!--新闻列表-->
+<!--scroll-y="true":垂直滚动-->
+<!--⾼度：viewHeight-->
+<!--lower-threshold：距离底部50，调⽤addMoreData事件-->
+<!--下拉到底部触发addData事件，加载更多-->
