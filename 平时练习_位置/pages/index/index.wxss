@@ -1,0 +1,11 @@
+/**index.wxss**/
+.section {
+  margin-top: 10px;
+}
+.section2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#myMap{margin: 10px;}
+

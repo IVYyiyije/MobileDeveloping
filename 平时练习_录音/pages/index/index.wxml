@@ -1,0 +1,33 @@
+<!--index.wxml-->
+ <!--录音音量动画显示图片-->
+<!--开始录音，显示该view-->
+<view  wx:if="{{isSpeaking}}"  class="speakPicViewClass">
+<!--音量图片1-->
+<image wx:if="{{picId==1}}" class="imageClass" src="../../images/sound1.png" ></image>
+<!--音量图片2-->
+<image wx:if="{{picId==2}}" class="imageClass" src="../../images/sound2.png" ></image>
+<!--音量图片3-->
+<image wx:if="{{picId==3}}" class="imageClass" src="../../images/sound3.png" ></image>
+<!--音量图片4-->
+<image wx:if="{{picId==4}}" class="imageClass" src="../../images/sound4.png" ></image>
+<!--音量图片5-->
+<image wx:if="{{picId==5}}"class="imageClass" src="../../images/sound5.png" ></image>
+ </view>
+
+<!--显示录音的列表-->
+<scroll-view>
+<block  wx:for="{{voices}}">
+    <view class="cellClass">
+        <view class="cellRowClass" data-key="{{item.filePath}}" bindtap="playAudio" > 
+            <view  class="dateClass">文件路径:{{item.filePath}}</view>
+            <view  class="dateClass" >录音时间:{{item.createTime}}</view>
+            <view  class="dateClass">文件大小:{{item.size}}KB</view>
+        </view>  
+    </view>
+</block>
+</scroll-view>
+
+<!--录音按钮-->
+ <view class="recordClass">
+ <button class="recordButtonClass" bindtouchstart="touchDown" bindtouchend="touchUp">按住 录音</button>
+ </view>

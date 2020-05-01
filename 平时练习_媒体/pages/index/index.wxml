@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="">图片</view>
+<button  bindtap="testButtonClick11" class="section"> 选择 </button>
+<button  bindtap="testButtonClick12" class="section"> 预览 </button>
+<button  bindtap="testButtonClick13" class="section"> 获取图片信息 </button>
+<button  bindtap="testButtonClick14" class="section"> 保存图片到系统相册 </button> 
+
+<view class="section2"> 录音 </view>
+<button  bindtap="testButtonClick21" class="section">开始录音</button>
+<button  bindtap="testButtonClick22" class="section">结束录音 </button> 
+
+<view class="section2">音频播放控制 </view>
+<button  bindtap="testButtonClick31" class="section">开始播放</button>
+<button  bindtap="testButtonClick32" class="section">暂停播放 </button>
+<button  bindtap="testButtonClick33" class="section">继续播放 </button>
+<button  bindtap="testButtonClick34" class="section">结束播放</button> 
+
+<view class="section2">视频与视频组件  </view>  
+<video src="{{videoParh}}"></video>
+<button  bindtap="testButtonClick51" class="section">拍摄视频或从手机相册中选视频</button>
+
+<view class="section2">视频组件</view>  
+<video id="myVideo" src="ccNews.mp4"   enable-danmu danmu-btn controls></video>
+<input bindblur="bindInputBlur"/>
+<button bindtap="bindSendDanmu">发送弹幕</button>
+<button type="primary" bindtap="videoPlay">播放</button>
+<button type="primary" bindtap="videoPause">暂停</button>
+<button type="primary" bindtap="video16">设置当前播放时间为16秒</button>
