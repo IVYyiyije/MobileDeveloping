@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="section">设置默认颜色/选中颜色
+  <slider bindchange="sliderChange1" color="#ff5400" selected-color="#00a189"/>
+</view>
+
+<view class="section">设置step
+    <slider bindchange="sliderChange2" step="5"/>
+</view>
+
+<view class="section">显示当前value
+    <slider bindchange="sliderChange3" show-value/>
+</view>
+
+<view class="section">设置最小/最大值
+    <slider bindchange="sliderChange4" min="50" max="200" show-value/>
+</view>
